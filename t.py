@@ -4,25 +4,8 @@ from turtle import onclick
 
 root = Tk()
 root.title("CASIO mX900")
-# def padd(r,s,e):
-#     for i in range(s,e):
-#         l = Label(root,text="")
-#         l.grid(row=r,column=i)
-#         del l
 
-# def onclick(num):
-#     print(f"you clicked {num}")
-
-
-# l1 = Label(root,text="one").grid(row=0,column=0)
-# padd(1,1,30)
-# l2 = Label(root,text="twwwwwo").grid(row=1,column=30)
-# padd(3,0,5)
-n1 = 0
 def ins(n):
-    # global n1
-    # n1+=1
-    # print(inp1.get())
     inp1.insert(len(inp1.get()),n)
 def clear():
     curr = inp1.get()
